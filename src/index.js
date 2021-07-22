@@ -1,3 +1,5 @@
+import './styles/index.scss';
+
 const randomNumber = () => {
     return Math.random() * 1000;
 }

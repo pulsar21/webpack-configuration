@@ -1,0 +1,20 @@
+@use "variables";
+
+body {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: variables.$bgColor;
+  border: 1px solid variables.$black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 1.5rem;
+}
