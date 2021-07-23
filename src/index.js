@@ -1,9 +1,12 @@
+import { StrictMode } from 'react';
+import { render } from 'react-dom';
 import './styles/index.scss';
+import App from "./components/App";
 
-const randomNumber = () => {
-    return Math.random() * 1000;
-}
+render(
+    <StrictMode>
+        <App />
+    </StrictMode>,
+    document.getElementById('root')
+)
 
-document.body.innerHTML = randomNumber();
-
-console.log(randomNumber());

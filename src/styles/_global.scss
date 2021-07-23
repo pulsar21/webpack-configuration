@@ -9,10 +9,14 @@ body {
 }
 
 main {
+  width: 500px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url("../images/react.png") no-repeat center;
+  background-size: contain;
 }
 
 button {

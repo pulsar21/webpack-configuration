@@ -1,0 +1,7 @@
+@use 'variables';
+
+.header {
+  width: 100%;
+  padding: 2rem;
+  background-color: variables.$orange;
+}
