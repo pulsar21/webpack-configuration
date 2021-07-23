@@ -40,6 +40,7 @@ module.exports = {
         rules: [
             {
                 test: /\.(png|jpe?g|svg)$/i,
+                exclude: /node_modules/,
                 type: "asset",
             },
             {
@@ -47,7 +48,6 @@ module.exports = {
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",
-
                 }
             },
             {
